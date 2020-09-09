@@ -1,8 +1,12 @@
 {
-  "name": "npx-card",
-  "version": "1.0.0",
+  "name": "@mehdoche1988/npx-card",
+  "version": "1.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "./index.js",
+  "bin": {
+    "mehdoche1988": "./index.js"
+  },
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
